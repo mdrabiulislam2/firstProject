@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+body{
+  background-color: #F1F3F4;
+}
+main{
+  width: 70%;
+  margin: 0 auto;
+  /* background-color: #ecf0f1; */
+}
+header {
+  background-color: rgb(191, 132, 246);
+  width: 100%;
+  height: 70px;
+  
+  
+}
+header .nav {
+  text-align: center;
+  padding-top: 25px;
+}
+header .nav .menu {
+   
+}
+header .nav .menu ul {
+  display: flex;
+  justify-content: center;
+}
+header .nav .menu ul li {
+}
+header .nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 60px;
+ 
+}
+/* end header menu */
+/* start banner */
+.banner{}
+.banner .banner-img{
+  background-image: url(/images/hero_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+
+}
+.banner .banner-img .text{
+  padding-left: 880px;
+  padding-top: 200px;
+}
+.banner .banner-img .text h1{
+  color: rgba(0, 0, 0, 0.825);
+  font-size:56px;
+  letter-spacing: 3px;
+
+}
+.banner .banner-img .text span{
+  font-size: 16px;
+  margin-top: 15px;
+    display: block;
+    padding-right: 150px;
+    text-align: justify;
+}
+.banner .banner-img .text .button{
+  padding-top: 40px;
+  
+}
+.banner .banner-img .text .button button{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: blueviolet;
+  border: 2px solid salmon;
+  font-weight: bold;
+  border-radius: 5px;
+  color: antiquewhite;
+
+}
+.banner .banner-img .text .button button:hover{
+ background-color: transparent;
+ color: blue;
+}
+
+/* end hero section */
+
+/*  start testimonial */
+
+.main{}
+.testimonial{}
+.testtimonial_elements{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.first_element{
+  width: 400px;
+  height: 180px;
+  background-color: #fff;
+  /* box-shadow: 10px 10px 10px rgba(148, 61, 61, 0.822); */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.content1{
+padding: 40px;
+display: flex;
+}
+.car{
+  /* padding-right: 15px;
+  padding-left: 12px; */
+  color: blue;
+}
+.fa-solid{
+  
+}
+.fa-question{
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.text{}
+h4{
+  padding-left: 10px;
+  padding-bottom: 7PX;
+}
+p{
+  padding-left: 10px;
+  text-align: justify;
+  font-size: small;
+}
+/* end testimonial */
+
+
+/* start preview section */
+
+/* image start*/
+
+.preview .one_image .img h4{}
+.children{
+  background-image: url(/images/children.jpg); !important
+}
+.women{
+  background-image: url(/images/women.jpg);
+}
+.men{
+  background-image: url(/images/men.jpg);
+}
+
+
+/* image end */
+.preview{
+  width: 100%;
+  height: 400px;
+  /* background-color: rgb(196, 149, 78); */
+  /* margin: 40px; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:130px;
+  margin-top: 80px;
+}
+.preview .one_image{
+  width: 30%;
+  height: 450px;
+  /* background-image: url(./images/women.jpg); */
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.preview .one_image .colect{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.preview .one_image .colect p{
+  font-size: 18px;
+  font-weight: 100px;
+  color: rgb(56, 110, 158);
+  padding-bottom: 5px;
+}
+/* end preview section */
+
+
+
+/* start line and featured products*/
+.line{}
+.line span{
+  text-align: center;
+  display: block;
+}
+.big_sales{
+  
+}
+.big_sales span{
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  word-spacing: 5px;
+  margin-bottom: 20px;
+}
+/* end line and featured products*/
+
+/* start featured products */
+
+.featured-products{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.featured-products .card-one{
+  width: 30%;
+  height: 350px;
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.featured-products .card-one .card-img img{
+  width: 100%;
+  height: 220px;
+  
+}
+.card-title{
+  text-align: center;
+  padding-top: 10px;
+}
+.about-card{
+  text-align: center;
+}
+.card-description p,span{
+  text-align: justify;
+  display: inline-block;
+  margin-top: 9px;
+  
+  
+}
+/* end featured products */
+
+
+/* start big sales */
+
+.big{
+  text-align: center;
+}
+.big span{
+  margin:16px;
+}
+.big h4{
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  word-spacing: 0.6rem;
+  letter-spacing: 0.35rem;
+  margin-bottom: 20px;
+}
+/* end big sales */
+
+
+/* start big sales preview */
+.big-preview{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ background-color: #fff;
+ margin-top: 40px;
+ margin-bottom: 60px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ height: 400px;
+}
+.img img{
+  
+  height: 400px;
+}
+.content-right{
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.big-preview .content-right .con{}
+.big-preview .content-right .con h3{
+ 
+}
+.big-preview .content-right .con span{
+  padding-top: -40px;
+  font-size: 13px;
+  font-weight:100;
+  padding: 9px;
+}
+.big-preview .content-right .con p{
+  font-size: small;
+  font-weight: 200;
+}
+.big-preview .content-right .con button{
+  padding: 13px 22px;
+  margin-top: 23px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.big-preview .content-right .con button:hover{
+  background-color: transparent;
+  color: blue;
+}
+/* end big sales preview */
+
+
